@@ -1,0 +1,6 @@
+# Sonar scanner download
+sonar-scanner-cli-*.zip
+
+# Sonar analysis output
+.scannerwork
+.sonar
