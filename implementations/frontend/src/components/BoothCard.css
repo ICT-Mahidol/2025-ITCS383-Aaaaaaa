@@ -1,0 +1,80 @@
+.booth-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: transform 0.2s;
+}
+
+.booth-card:hover {
+  transform: translateY(-2px);
+}
+
+.booth-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.booth-number {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.booth-status {
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.booth-details {
+  margin-bottom: 15px;
+}
+
+.booth-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+.booth-facilities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.facility {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.reserve-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.reserve-btn:hover {
+  background-color: #229954;
+}
+
+.reserve-btn:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
